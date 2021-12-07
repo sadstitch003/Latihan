@@ -61,7 +61,7 @@ namespace Latihan
                         Console.WriteLine($"{kalimatArray[i - 1]} = {jumlahHuruf}");
                     jumlahHuruf = 1;
                 }
-                if (i == 5)
+                if (i % 5 == 0)
                     Console.WriteLine();
 
                 jumlahHurufTotal++;
