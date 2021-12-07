@@ -8,12 +8,12 @@ namespace Latihan
         {
             while (true)
             {
-            var jumlahSpasi = 0;
-            var kataTerpendek = 0;
-            var kalimat = "";
+                var jumlahSpasi = 0;
+                var kataTerpendek = 0;
+                var kalimat = "";
 
-            while (jumlahSpasi < 2 || kataTerpendek <= 1)
-            {
+                while (jumlahSpasi < 2 || kataTerpendek <= 1)
+                {
                     Console.Write("\nMasukkan Kalimat : ");
                     kalimat = Console.ReadLine();
                     kalimat = kalimat.ToUpper();
@@ -43,7 +43,6 @@ namespace Latihan
                 Console.Write("\nMasukkan Kata : ");
                 var kataDicari = Console.ReadLine();
                 kataDicari = kataDicari.ToUpper();
-
 
                 // Statistik Huruf
                 Console.WriteLine("\nSTATISTIK HURUF : ");
